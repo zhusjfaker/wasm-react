@@ -3,5 +3,9 @@
 # nodejs
 node_modules
 
+# ide
+.vscode
+.idea
+
 # mac
 .Ds_Store

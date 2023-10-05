@@ -4,7 +4,8 @@
   "private": true,
   "description": "test-wasm",
   "scripts": {
-    "test": "http-server -p 8080"
+    "test": "http-server -p 8080",
+    "build": "wasm-pack build --target web --out-dir ./pkg"
   },
   "keywords": [],
   "author": "",
