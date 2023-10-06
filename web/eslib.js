@@ -1,8 +1,12 @@
-import init, { greet } from '../pkg/wasm_react.js';
+import init, { test } from '../pkg/wasm_react.js';
 
 async function run() {
   await init();
-  greet();
+  if (ReactDOM) {
+    const ele = test();
+    ReactDOM.render(ele, document.getElementById('root'));
+  }
 }
 
 run();
+

@@ -7,6 +7,10 @@
     "test": "http-server -p 8080",
     "build": "wasm-pack build --target web --out-dir ./pkg"
   },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
